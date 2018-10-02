@@ -17,7 +17,7 @@ public class Tester {
 		CloseableHttpClient http = HttpClientBuilder.create().build();
 		
 		String jsonPayload = "";
-
+		// Teste
 		patch.setEntity(new StringEntity(jsonPayload, ContentType.APPLICATION_JSON));
 		
 		HttpResponse response = http.execute(patch);
